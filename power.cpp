@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int power(int x, int y) {
+long long power(long long x, long long y) {
     if (y == 0) {
         return 1; 
     } else {
@@ -9,7 +9,7 @@ int power(int x, int y) {
     }
 }
 int main() {
-    int x, y;
+    long long x, y;
     cin >> x >> y;
 
     cout << power(x, y) << endl;
